@@ -34,4 +34,13 @@ def xref(fname1, fname2):
     
 
 if __name__ == '__main__':
-    xref(sys.argv[1], sys.argv[2])
+    try:
+        xref(sys.argv[1], sys.argv[2])
+    except:
+        print('''
+python xref.py tlds.txt classes.txt
+    Given a list of gTLDs and a list of classes (points in the hierarchical
+    namespace(s) of a programming ecosystem), report collisions. Both lists
+    should be simple text files with one item per line, and comparison is not
+    case-sensitive.
+''')
