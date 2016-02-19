@@ -13,10 +13,11 @@ python collide.py tlds.txt classes.txt
   case-sensitive.
   
 ## sample files
-tlds.txt is provided; you may want to refresh it if its last mod date is not recent.
-Sample package/class hierarchies for java are also provided, although these only
-include items from the standard JRE. These lists were essentially copy/pasted from
-oracle docs; see http://j.mp/1XC3pBL for an example.
+tlds.txt is provided; you may want to [refresh it ](http://data.iana.org/TLD/tlds-alpha-by-domain.txt)
+if its last mod date is not recent. Sample package/class hierarchies for java are
+also provided, although these only include items from the standard JRE. These
+lists were essentially copy/pasted from oracle docs; see http://j.mp/1XC3pBL for
+an example.
 
 I couldn't find an easy way to generate an analogous list for the .NET framework,
 but I would welcome contributions of that data -- or similar data for python,
