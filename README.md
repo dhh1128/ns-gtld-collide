@@ -1,7 +1,7 @@
 # ns-gtld-collide
 Find collisions between namespaces in programming languages and global TLDs.
-See http://j.mp/20J7HHp for details about why this is a security issue -- or
-view [our RSA 2016 talk](http://j.mp/1Qp32ei).
+See http://j.mp/20J7HHp -- or view [our RSA 2016 talk](http://j.mp/1Qp32ei) --
+for details about why these collisions are a security issue.
 
 ## usage
 ```
