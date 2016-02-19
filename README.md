@@ -9,7 +9,7 @@ python collide.py tlds.txt classes.txt
 ```
   Given a list of gTLDs and a list of classes (points in the hierarchical
   namespace(s) of a programming ecosystem), report collisions. Both lists
-  should be simple text files with one item per line, and comparison is not
+  should be simple text files with one item per line. Comparison is not
   case-sensitive.
   
 ## sample files
